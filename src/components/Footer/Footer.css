@@ -1,0 +1,29 @@
+footer{
+  background-color: #19C8DB;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-area{
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+}
+
+.footer-pagamentos h1{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+    

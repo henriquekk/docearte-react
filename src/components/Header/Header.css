@@ -1,0 +1,16 @@
+header{
+  background-color: #19C8DB;
+}
+
+.header-area{
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
