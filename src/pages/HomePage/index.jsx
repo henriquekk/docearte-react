@@ -4,28 +4,28 @@ import "./HomePage.css"
 import Card from "components/Card";
 import Button from "components/Button";
 import ContentContainer from "components/ContentContainer";
+import PageArea from "components/PageArea";
 
 export default function HomePage(){
   return(
     <>
       <Header />
-      <div className="principal-area">
-        <h1>Destaques</h1>
-        <p>slider</p>
-        <h1>Produtos</h1>
 
-        <section className="cards-area">
+      <PageArea>
+        <h1 className="home-title">Destaques</h1>
+        <p className="home-p">slider</p>
+        <h1 className="home-title">Produtos</h1>
+
+        <ContentContainer>
           <Card />
           <Card />
           <Card />
           <Card />
-        </section>
+        </ContentContainer>
         
+        <Button/>
+      </PageArea>
 
-        <Button>
-          
-        </Button>
-      </div>
       <Footer />
     </>
   );

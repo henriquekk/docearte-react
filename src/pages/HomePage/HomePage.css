@@ -1,22 +1,9 @@
-.principal-area{
-  max-width: 1440px;
-  margin: 40px auto;
-}
-
-.principal-area h1{
+.home-title{
   font-size: 42px;
   text-align: center;
   text-transform: uppercase;
 }
 
-p{
+.home-p{
   text-align: center;
-}
-
-.cards-area{
-  max-width: 1440px;
-  margin: 20px auto;
-  display: flex;
-  justify-content:space-around;
-  flex-wrap: wrap;
 }

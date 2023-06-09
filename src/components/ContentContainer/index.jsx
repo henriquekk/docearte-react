@@ -1,9 +1,9 @@
 import './ContentContainer.css'
 
-export default function ContentContainer(){
+export default function ContentContainer({ children }){
   return(
-    <div className="principal-produtos">
-
-    </div>
+    <section className='content-container'>
+      {children}
+    </section>
   );
 }
