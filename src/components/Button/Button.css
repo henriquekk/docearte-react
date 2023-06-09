@@ -1,5 +1,5 @@
-.principal-btn{
-  margin: 150px 0 150px 0;
+.btn{
+  margin: 15px 0;
   text-align: center;
 }
 
@@ -11,12 +11,12 @@
   background-color: rgb(60, 174, 209);
   border: transparent;
   border-radius: 40px;
-  padding: 20px;
+  padding: 15px;
   transition: 0.3s all;
   cursor: pointer;
 }
 
 .button:hover{
   background-color: rgb(56, 160, 192);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }

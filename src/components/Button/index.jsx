@@ -1,13 +1,11 @@
 import './Button.css';
 
-export default function Button(){
+export default function Button({ children }){
   return(
-    <div className="principal-btn">
-            <a href="/produtos">
-                <button className="button">
-                    Veja mais produtos
-                </button>
-            </a>
-        </div>
+    <div className="btn">
+        <button className="button">
+          {children}
+        </button>
+    </div>
   );
 }

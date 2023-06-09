@@ -5,6 +5,7 @@ import Card from "components/Card";
 import Button from "components/Button";
 import ContentContainer from "components/ContentContainer";
 import PageArea from "components/PageArea";
+import { Link } from "react-router-dom";
 
 export default function HomePage(){
   return(
@@ -23,7 +24,11 @@ export default function HomePage(){
           <Card />
         </ContentContainer>
         
-        <Button/>
+        <Link to="/produtos" style={{ textDecoration: 'none' }}>
+          <Button>
+            Veja mais produtos
+          </Button>
+        </Link>
       </PageArea>
 
       <Footer />

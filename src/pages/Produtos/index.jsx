@@ -18,6 +18,18 @@ export default function Produtos (){
           <Card />
           <Card />
           <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </ContentContainer>
       </PageArea>
 
