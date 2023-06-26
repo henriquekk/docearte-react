@@ -1,0 +1,15 @@
+.carousel {
+  max-width: 85%;
+  margin: auto;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slide-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

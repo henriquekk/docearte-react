@@ -6,6 +6,7 @@ import Button from "components/Button";
 import ContentContainer from "components/ContentContainer";
 import PageArea from "components/PageArea";
 import { Link } from "react-router-dom";
+import Carousel from "components/Carousel";
 
 export default function HomePage(){
   return(
@@ -14,8 +15,9 @@ export default function HomePage(){
 
       <PageArea>
         <h1 className="home-title">Destaques</h1>
-        <p className="home-p">slider</p>
+        <Carousel />
         <h1 className="home-title">Produtos</h1>
+
 
         <ContentContainer>
           <Card />

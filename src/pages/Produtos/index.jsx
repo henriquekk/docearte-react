@@ -4,6 +4,7 @@ import Footer from 'components/Footer';
 import Card from 'components/Card';
 import ContentContainer from 'components/ContentContainer';
 import PageArea from 'components/PageArea';
+import Filtro from 'components/Filtro';
 
 export default function Produtos (){
   return(
@@ -11,8 +12,7 @@ export default function Produtos (){
       <Header/>
       
       <PageArea>
-        <h1 className='prod-title'>Produtos</h1>
-
+        <h1 className='prod-title'>Produtos</h1>        
         <ContentContainer>
           <Card />
           <Card />

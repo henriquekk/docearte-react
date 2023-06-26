@@ -15,9 +15,9 @@ export default function Footer(){
 
         <nav>
           <ul>
-            <li><a href="https://www.instagram.com/doceartestudio"><AiOutlineInstagram size="30px" color="#fff"/></a></li>
-            <li><a href="#"><AiOutlineWhatsApp size="30px" color="#fff"/></a></li>
-            <li><a href="#"><AiOutlineMail size="30px" color="#fff"/></a></li>
+            <li><a href="https://www.instagram.com/doceartestudio" target="_blank"><AiOutlineInstagram size="30px" color="#fff"/></a></li>
+            <li><a href="#"><AiOutlineWhatsApp size="30px" color="#fff" target="_blank"/></a></li>
+            <li><a href="#"><AiOutlineMail size="30px" color="#fff" target="_blank"/></a></li>
           </ul>
         </nav>
 
