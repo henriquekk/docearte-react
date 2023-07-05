@@ -9,7 +9,7 @@ export default function Card(){
         <img className="imagem-produto" src={imagem} alt="Caneca"/>
         <p className="descricao-produto">Caneca "Gente que ama Gatinhos"</p>
         <p className="preco-produto">R$ 40,00</p>
-        <Link to="/" style={{ textDecoration: 'none' }}>
+        <Link to='/produto/'style={{ textDecoration: 'none' }}>
           <Button>
             Ver produto
           </Button>
