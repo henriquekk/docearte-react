@@ -8,6 +8,11 @@
   display: flex;
 }
 
+.titulo-compra{
+  text-align: center;
+  width: 90%;
+}
+
 .product-box img {
   width: 90%;
   border-radius: 20px;
@@ -34,5 +39,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.descricao-compra p{
+  font-style: italic;
 }
 
