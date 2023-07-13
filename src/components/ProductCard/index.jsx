@@ -43,7 +43,7 @@ const ProductCard = ({ limit, filtered }) => {
         <div className='caixa-produtos' key={produto.id}>
           <img className="imagem-produto" src={produto.imagem.url} alt={produto.titulo} />
           <p className="descricao-produto">{produto.titulo}</p>
-          <p className="preco-produto">{produto.preco}</p>
+          <p className="preco-produto">${produto.preco}</p>
           <Link to={`/produto/${produto.id}`} style={{ textDecoration: 'none' }}>
             <Button>Ver produto</Button>
           </Link>
